@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* width: border(l&r)+content + padding; */
+}
+
+
+
+
+.parent{
+    background-color: yellow;
+    /* margin: 16px; all*/
+    /* margin: 100px; 10px  top&buttom and left and right*/
+    margin: 0px 20px 16px;
+    /* padding: 16px;  */
+    border: 1px solid #ccc;
+    width: 80px;
+    box-sizing: border-box;
+}
+
+.heading{
+    
+    margin: 32px 20px 0px;
+    padding: 10px;
+
+}
+
+.buddy{
+    text-align: center;
+    margin: 0 auto;
+
+}
+div.logo{
+    text-align: center;
+}
