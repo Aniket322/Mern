@@ -1,0 +1,59 @@
+.parent{
+    display: grid;
+    /* grid-template-columns: 50px 50px 50px; */
+    grid-template-columns: 1fr 1fr 1fr ;
+    /* grid-template-columns: repeat(4,50px); */
+    grid-template-rows: 50px 75px 50px;
+
+    background-color: aqua;
+
+column-gap: 10px;
+row-gap: 10px;
+
+}
+
+/* .child{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+     background-color: aquamarine; 
+}
+
+.Menu{
+    grid-row-start: 2 ;
+    grid-row-end: 3;
+}
+
+.footer{
+    grid-column-start:1;
+    grid-column-end: 4;
+}
+
+.Main{
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+
+} */
+.parent{
+    display: grid;
+    /* dibbe ander krne k liye  */
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+}
+.child{
+    background-color: beige;
+    border: 1px solid red;
+}
+
+.child{
+    min-width: 50px;
+    max-width: 100px;
+    min-height: 50px;
+    max-height: 100px;
+}

@@ -1,0 +1,47 @@
+button{
+    scale: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation-name: button-animation-t1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    /* padding: 8px 16px;
+    font-size: 24px;
+    border: none;
+    border-radius: 8px;
+
+    transition-property: scale,background-color;
+    transition-timing-function: ; */
+}
+
+/* button:hover{
+    background-color: yellow;
+    cursor: pointer;
+    scale: 3;
+
+
+} */
+
+@keyframes button-animation-t1 {
+    0%{ 
+        top: 20px;
+        left: 40px;
+    }
+    30%{
+        top: 20px;
+        left: 500px ;
+    }
+    60%{
+        top: 400px;
+        left: 500px ;
+    }
+    100%{
+        top: 400px;
+        left: 40px ;
+    }
+    
+}
+
